@@ -1,6 +1,6 @@
 #include <iostream>
 
-int main()
+int ch01_main()
 {
     std::cout << "Hello World!\n";
     return (0);

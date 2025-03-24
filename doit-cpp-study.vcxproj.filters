@@ -16,10 +16,22 @@
     <Filter Include="소스 파일\ch01">
       <UniqueIdentifier>{0faa0aab-9f36-41e6-8ba4-6bbfa9290767}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\ch02">
+      <UniqueIdentifier>{eb15916f-5911-4fe9-898e-ab5fe8ff4bb9}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp">
+    <ClCompile Include="ch01_main.cpp">
       <Filter>소스 파일\ch01</Filter>
+    </ClCompile>
+    <ClCompile Include="input_output.cpp">
+      <Filter>소스 파일\ch02</Filter>
+    </ClCompile>
+    <ClCompile Include="input_output_with_using_namespace.cpp">
+      <Filter>소스 파일\ch02</Filter>
+    </ClCompile>
+    <ClCompile Include="main_name_collision.cpp">
+      <Filter>소스 파일\ch02</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
